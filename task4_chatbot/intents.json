@@ -1,0 +1,86 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "\\b(hi|hello|hey|good\\s*morning|good\\s*evening|vanakkam)\\b"
+      ],
+      "responses": [
+        "Hello! I am the Datheon Assistant. How can I assist you with your Python tasks today?",
+        "Hi there! Welcome. Feel free to ask questions about Datheon, Python, or project tasks.",
+        "Vanakkam! I'm ready to help you with your coding journey."
+      ]
+    },
+    {
+      "tag": "internship_info",
+      "patterns": [
+        "\\b(what\\s*is\\s*datheon|about\\s*datheon|internship\\s*details|program\\s*overview)\\b"
+      ],
+      "responses": [
+        "The Datheon Python Programming Internship is a 4-week industry-modeled engineering curriculum designed to build real portfolio proof.",
+        "Datheon empowers developers by pairing practical programming tasks with verifiable QR-coded certificates."
+      ]
+    },
+    {
+      "tag": "deadline",
+      "patterns": [
+        "\\b(deadline|last\\s*date|cutoff|when\\s*to\\s*submit)\\b"
+      ],
+      "responses": [
+        "The final submission cutoff is Sunday, December 20, 2026. Make sure to commit and submit your public GitHub repository before this date.",
+        "You have a total of 28 calendar days. Final evaluation commences on Dec 20, 2026."
+      ]
+    },
+    {
+      "tag": "tasks",
+      "patterns": [
+        "\\b(tasks|task\\s*pack|how\\s*many\\s*tasks|syllabus)\\b"
+      ],
+      "responses": [
+        "The internship comprises 5 tasks:\n 1. Hangman Word Guessing Game (Console)\n 2. Stock Portfolio Performance Tracker (CSV)\n 3. Automated File Organizer & Cleanup Utility (OS/Pathlib)\n 4. Rule-Based Interactive Chatbot (Regex/JSON)\n 5. Enterprise Smart Inventory & Asset System (OOPs/ABC)",
+        "Rule: You must complete at least 2 to 3 tasks to qualify for certification. Completing all 5 qualifies for Letters of Recommendation!"
+      ]
+    },
+    {
+      "tag": "python_help",
+      "patterns": [
+        "\\b(python|libraries|dependencies|requirements|modules)\\b"
+      ],
+      "responses": [
+        "All tasks are 100% built using Python 3 standard libraries (random, csv, os, shutil, pathlib, re, json, abc, unittest). No paid subscriptions or external API keys needed!",
+        "You can run the entire codebase on standard Python 3.10+ without any pip dependencies."
+      ]
+    },
+    {
+      "tag": "certificate",
+      "patterns": [
+        "\\b(certificate|credential|verification|qr\\s*code)\\b"
+      ],
+      "responses": [
+        "Once you submit your public GitHub repository, the Directorate reviews your code and issues a QR-coded verified certificate.",
+        "The certificate includes a unique verification hash and QR credential authenticated by Datheon."
+      ]
+    },
+    {
+      "tag": "hours_contact",
+      "patterns": [
+        "\\b(contact|email|support|hours|helpdesk)\\b"
+      ],
+      "responses": [
+        "Support is available Monday through Friday, 9:00 AM to 6:00 PM IST via your student dashboard or official email.",
+        "You can reach out through the official Datheon portal for credential or technical queries."
+      ]
+    },
+    {
+      "tag": "exit",
+      "patterns": [
+        "\\b(bye|goodbye|exit|quit|see\\s*ya|close)\\b"
+      ],
+      "responses": [
+        "Goodbye! Happy coding and best of luck on your Python internship submission!",
+        "Have a great day ahead! Remember to push your code regularly to GitHub.",
+        "See you! Feel free to return if you need more help."
+      ]
+    }
+  ]
+}
